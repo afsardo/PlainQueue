@@ -1,0 +1,23 @@
+{
+    "name": "afsardo/plainqueue",
+    "description": "A BeanstalkdQueue that doesnt require laravel Jobs.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andre Sardo",
+            "email": "afsardo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AFSardo\\PlainQueue\\": "src/"
+        }
+    },
+    "require": {
+        "laravel/framework": "5.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.1"
+    },
+    "minimum-stability": "dev"
+}
