@@ -1,12 +1,12 @@
-# Laravel Plain Beanstalkd Queue
+# Laravel Plain Beanstalk Queue
 
 [![Total Downloads](https://poser.pugx.org/afsardo/plainqueue/downloads)](https://packagist.org/packages/afsardo/plainqueue)
 [![Latest Stable Version](https://poser.pugx.org/afsardo/plainqueue/v/stable)](https://packagist.org/packages/afsardo/plainqueue)
 [![Latest Unstable Version](https://poser.pugx.org/afsardo/plainqueue/v/unstable)](https://packagist.org/packages/afsardo/plainqueue)
 [![License](https://poser.pugx.org/afsardo/plainqueue/license)](https://packagist.org/packages/afsardo/plainqueue)
 
-This package is a replacement for Beanstalkd driver that all it does is instead of poping jobs from the queue and resolving them into Laravel\Job classes they are just passed as plain data to a Listener Handler.
-It was created due to the fact that Beanstalkd driver ignores jobs that aren't resolved.
+This package is a replacement for Beanstalk driver that all it does is instead of poping jobs from the queue and resolving them into Laravel\Job classes they are just passed as plain data to a Listener Handler.
+It was created due to the fact that Beanstalk driver ignores jobs that aren't resolved.
 
 ## Monolithic Application Context
 Makes sense if you are connected to a Queue that external services are pushing jobs and you want to be able to fetch them.
