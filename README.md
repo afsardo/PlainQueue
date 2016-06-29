@@ -73,7 +73,7 @@ The payload is the job that was pushed to the Queue.
 
 ## When you are ready to use it
 
-Just change the default beanstalkd driver in `config/queue.php`.
+Just change the default beanstalk driver in `config/queue.php`.
 
 ```php
 <?php
