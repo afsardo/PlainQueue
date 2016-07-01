@@ -1,7 +1,7 @@
 # Laravel Plain Beanstalk Queue
 
 [![Total Downloads](https://poser.pugx.org/afsardo/plainqueue/downloads)](https://packagist.org/packages/afsardo/plainqueue)
-[![Latest Stable Version](https://poser.pugx.org/afsardo/plainqueue/v/stable)](https://packagist.org/packages/afsardo/plainqueue)
+<!--[![Latest Stable Version](https://poser.pugx.org/afsardo/plainqueue/v/stable)](https://packagist.org/packages/afsardo/plainqueue)-->
 [![Latest Unstable Version](https://poser.pugx.org/afsardo/plainqueue/v/unstable)](https://packagist.org/packages/afsardo/plainqueue)
 [![License](https://poser.pugx.org/afsardo/plainqueue/license)](https://packagist.org/packages/afsardo/plainqueue)
 
